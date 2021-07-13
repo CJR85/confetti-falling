@@ -7,3 +7,7 @@ btn.onclick = function () {
 close.onclick = function () {
   popup.classList.remove('active');
 };
+
+var confettiSettings = { target: 'my-canvas' };
+var confetti = new ConfettiGenerator(confettiSettings);
+confetti.render();
