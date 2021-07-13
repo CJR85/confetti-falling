@@ -46,6 +46,10 @@ section button {
   visibility: hidden;
 }
 
+.popup.active {
+  visibility: visible;
+}
+
 .close {
   position: absolute;
   top: 0;
