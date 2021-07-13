@@ -69,3 +69,7 @@ section button {
   z-index: 100000;
   visibility: hidden;
 }
+
+#my-canvas.active {
+  visibility: visible;
+}
