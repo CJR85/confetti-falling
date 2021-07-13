@@ -8,6 +8,7 @@ btn.onclick = function () {
 };
 close.onclick = function () {
   popup.classList.remove('active');
+  confe.classList.remove('active');
 };
 
 var confettiSettings = { target: 'my-canvas' };
