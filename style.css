@@ -68,6 +68,7 @@ section button {
   height: 100vh;
   z-index: 100000;
   visibility: hidden;
+  pointer-events: none;
 }
 
 #my-canvas.active {
