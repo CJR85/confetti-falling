@@ -1,5 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Inconsolata', sans-serif;
+}
+
+section {
+  position: relative;
+  padding: 60px;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 1.1em;
+}
+
+section button {
+  position: relative;
+  padding: 15px 25px;
+  margin-top: 20px;
+  font-size: 1.1em;
+  cursor: pointer;
 }
